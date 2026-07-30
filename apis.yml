@@ -1,7 +1,29 @@
 aid: mlnetworks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mlnetworks.png
 name: MLnetworks
-description: MLnetworks is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MLNetworks is an AI-powered telecommunications network optimization company,
+  surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network. The company positions itself around helping telcos "unlock the full
+  potential of your telco network," delivering AI-driven insights, an advertised
+  ~30% reduction in CAPEX/OPEX, and faster network problem resolution. As of this
+  enrichment pass the public surface at mlnetworks.io is a marketing site only
+  (a Next.js/Vercel single-page app) with no published developer portal, API
+  documentation, OpenAPI/AsyncAPI specification, SDKs, MCP server, or
+  /.well-known discovery documents — all probed endpoints returned 404 and no
+  docs/api/developer subdomains resolve. Go-to-market is a Calendly discovery-call
+  booking rather than a self-serve developer signup.
 url: https://raw.githubusercontent.com/api-evangelist/mlnetworks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Telecommunications
+- Networks
+- Artificial Intelligence
+- Machine Learning
+- Analytics
+- Network Optimization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,16 @@ maintainers:
 common:
 - type: Website
   url: https://mlnetworks.io
+- type: X
+  url: https://twitter.com/MLNETWORKS2023
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mlnetworks
+- type: Instagram
+  url: https://www.instagram.com/mlnetworks.io/
+- type: Demo
+  url: https://calendly.com/mlnetworks/mlnetworks-call-discovery
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
