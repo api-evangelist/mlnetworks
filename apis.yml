@@ -50,7 +50,7 @@ tags:
 - Telecommunications
 - Networks
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Analytics
 - Network Optimization
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Machine Learning
 - Analytics
 - Network Optimization
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
